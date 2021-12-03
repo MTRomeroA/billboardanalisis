@@ -1,0 +1,40 @@
+<svg  viewBox="0 0 560 627" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="560" height="626.104" rx="5" fill="#1A283D"/>
+<rect width="560" height="626.104" rx="5" fill="url(#paint0_linear_216_8632)" fill-opacity="0.2"/>
+<text fill="#DEE2E8" xml:space="preserve" style="white-space: pre" font-family="Mulish" font-size="24" font-weight="900" letter-spacing="0em"><tspan x="48" y="72.06">Cantidad de canciones en el </tspan><tspan x="48" y="102.06">chart, 2010 vs 2020</tspan></text>
+<path d="M143.845 463H512" stroke="#C57AFF" stroke-opacity="0.15"/>
+<path d="M143.845 388H512" stroke="#C57AFF" stroke-opacity="0.15"/>
+<path d="M143 539L511.156 539" stroke="#C57AFF" stroke-opacity="0.15"/>
+<path d="M143.845 311H512" stroke="#C57AFF" stroke-opacity="0.15"/>
+<path d="M143.845 237H512" stroke="#C57AFF" stroke-opacity="0.15"/>
+<text fill="#DEE2E8" xml:space="preserve" style="white-space: pre" font-family="Mulish" font-size="18" font-weight="300" letter-spacing="0.135em"><tspan x="116.207" y="547.295">0</tspan></text>
+<text fill="#DEE2E8" xml:space="preserve" style="white-space: pre" font-family="Mulish" font-size="18" font-weight="300" letter-spacing="0.135em"><tspan x="102.984" y="471.295">20</tspan></text>
+<text fill="#DEE2E8" xml:space="preserve" style="white-space: pre" font-family="Mulish" font-size="18" font-weight="300" letter-spacing="0.135em"><tspan x="102.984" y="396.295">40</tspan></text>
+<text fill="#DEE2E8" xml:space="preserve" style="white-space: pre" font-family="Mulish" font-size="18" font-weight="300" letter-spacing="0.135em"><tspan x="102.984" y="318.295">60</tspan></text>
+<text fill="#DEE2E8" xml:space="preserve" style="white-space: pre" font-family="Mulish" font-size="18" font-weight="300" letter-spacing="0.135em"><tspan x="102.984" y="244.295">80</tspan></text>
+<text fill="#DEE2E8" xml:space="preserve" style="white-space: pre" font-family="Mulish" font-size="24" font-weight="900" letter-spacing="0em"><tspan x="225.609" y="203.06">83</tspan></text>
+<path d="M288 225H192V539H288V225Z" fill="url(#paint1_linear_216_8632)"/>
+<text fill="#DEE2E8" xml:space="preserve" style="white-space: pre" font-family="Mulish" font-size="18" font-weight="300" letter-spacing="0.135em"><tspan x="214.769" y="573.295">2010</tspan></text>
+<text fill="#DEE2E8" xml:space="preserve" style="white-space: pre" font-family="Mulish" font-size="24" font-weight="900" letter-spacing="0em"><tspan x="366.609" y="178.06">90</tspan></text>
+<path d="M429 200H333V539.104H429V200Z" fill="url(#paint2_linear_216_8632)"/>
+<text fill="#DEE2E8" xml:space="preserve" style="white-space: pre" font-family="Mulish" font-size="18" font-weight="300" letter-spacing="0.135em"><tspan x="355.769" y="573.399">2020</tspan></text>
+<text transform="translate(48 443) rotate(-90)" fill="#DEE2E8" xml:space="preserve" style="white-space: pre" font-family="Mulish" font-size="18" font-weight="300" letter-spacing="0.135em"><tspan x="17.1287" y="18.295">Cantidad</tspan></text>
+<defs>
+<linearGradient id="paint0_linear_216_8632" x1="280" y1="0" x2="280" y2="626.104" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0B1131"/>
+<stop offset="1" stop-color="#334F79"/>
+</linearGradient>
+<linearGradient id="paint1_linear_216_8632" x1="233.6" y1="178.663" x2="429.584" y2="423.675" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E2396F"/>
+<stop offset="0.0001" stop-color="#E2396F"/>
+<stop offset="1" stop-color="#95326D"/>
+<stop offset="1" stop-color="#D23879"/>
+</linearGradient>
+<linearGradient id="paint2_linear_216_8632" x1="382.291" y1="200" x2="382.291" y2="552.161" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3D6DF2"/>
+<stop offset="0.0001" stop-color="#3E68E0"/>
+<stop offset="0.484375" stop-color="#245EF3"/>
+<stop offset="1" stop-color="#3558D3"/>
+</linearGradient>
+</defs>
+</svg>
