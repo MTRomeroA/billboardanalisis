@@ -19,33 +19,32 @@
 
 <body>
     <div class="site-wrapper">
-        <header class='container'>
+        <header class='px-sm-4'>
             <section class="header">
                 <div class="row">
-                    <div class="col-12 p-4">
+                    <div class="btn-nav py-4 w-100 d-flex ">
+                        <ul class='nav'>
+                            <li class="nav-item">
+                                <a class="btn btn-primary btn-lg" href="#descripción-data">Observaciones
+                                    generales</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-primary btn-lg" href="#canciones-analisis">Canciones n°1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-primary btn-lg" href="#tendencias">Permanencia y tiempos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-primary btn-lg" href="#artistas">Artistas</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12">
                         <h1>
-                            Spotify killed <br> the radio star
+                            Billboard: <br> 2010 vs 2020
                         </h1>
                         <p class='lead'> Análisis comparativo de las canciones que llegaron al Billboard Hot
-                            100 en 2010 y 2020</p>
-
-                        <div class="btn-nav py-4 w-100 d-flex ">
-                            <ul class='nav'>
-                                <li class="nav-item">
-                                    <a class="btn btn-primary btn-lg" href="#descripción-data">Observaciones
-                                        generales</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="btn btn-primary btn-lg" href="#canciones-analisis">Canciones n°1</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="btn btn-primary btn-lg" href="#tendencias">Permanencia y tiempos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="btn btn-primary btn-lg" href="#artistas">Artistas</a>
-                                </li>
-                            </ul>
-                        </div>
+                            100 en 2010 y 2020</p>               
                     </div>
                     <div class="col-12 p-0 m-0">
                         <div class="img-container">
@@ -56,7 +55,7 @@
         </header>
         <main class="container">
             <section class="intro">
-                <div class="row d-flex px-md-5 px-lg-0 pt-0 pt-lg-5 flex-column-reverse flex-lg-row ">
+                <div class="row d-flex px-md-5 px-lg-0 mb-4 pt-0 pt-lg-5 flex-column-reverse flex-lg-row ">
                     <div class="col-12 col-lg-6 px-5 d-none d-lg-flex align-items-center" >
                         <div class=" w-100">
                             <img class="" src="/assets/img/finales/deco-phone.svg" alt="decoración-transfondo">
@@ -67,9 +66,9 @@
                             <img class="" src="/assets/img/finales/deco-phone-horizontal.svg" alt="decoración-transfondo">
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 mb-4 py-3 pe-lg-5">
+                    <div class="col-12 col-lg-6 mb-4 pt-5 pe-lg-5">
                 
-                        <h4 mb-4>
+                        <h4>
                             Transfondo
                         </h4>
 
@@ -90,7 +89,7 @@
                   
                 </div>
 
-                <div class="row d-flex px-md-5 px-lg-0 py-0 py-lg-5">
+                <div class="row d-flex px-md-5 px-lg-0 py-0 py-lg-5 mb-4">
                     <div class="col-12 col-lg-6 pe-lg-5">
 
                         <h5>El análisis</h5>
@@ -115,7 +114,7 @@
                 </div>
             </section>
 
-            <section id="info-data" class="">
+            <section id="info-data" class="container">
 
                 <div class="row d-flex justify-content-end gy-4 px-md-5 p-lg-0 flex-column-reverse flex-lg-row">
                     <div class="col-12 col-lg-6 px-sm-5 px-lg-0 mb-4 d-flex align-items-center">
@@ -212,7 +211,7 @@
                         Código
                     </h5>
                     <p>
-                        Todo el código que escribí para combinar, limpiar y analizar la data está en este Jupyter
+                        Todo el código que escribí para analizar la data está en este Jupyter
                         Notebook
                     </p>
                 </div>
@@ -220,7 +219,7 @@
 
             </section>
 
-            <section id="descripción-data" class=" mt-5">
+            <section id="descripción-data" class=" mt-5 container">
 
                 <div class="row mb-2">
                     <div class="col-12 col-lg-8">
@@ -229,7 +228,7 @@
 
                         </h4>
 
-                        <h5 class="mt-4">
+                        <h5 >
                             Cantidades
                         </h5>
 
@@ -246,8 +245,8 @@
 
                 </div>
 
-                <div class="row d-none d-lg-flex">
-                    <div class="col-12 px-5 shadow">
+                <div class="row d-none d-lg-flex mt-4">
+                    <div class="col-12  shadow">
                         <img src="/assets/img/finales/cantidad-de-canciones-y-artistas.svg" alt="canciones y artistas">
                     </div>
                 </div>
@@ -281,7 +280,7 @@
 
                         </h5>
 
-                        <p class="mb-4">
+                        <p >
                             Una tendencia que se ha observado antes es la reducción progreasiva de la duración
                             de las canciones populares en las últimas décadas.
                             En este análisis se observa la tendencia: las canciones en el 2020 son bastante más cortas
@@ -299,8 +298,8 @@
 
                     </div>
                 </div>
-                <div class="row d-none d-lg-flex justify-content-center ">
-                    <div class="col-9 d-flex p-0 shadow">
+                <div class="row d-none d-lg-flex justify-content-center mt-4">
+                    <div class="col-12 d-flex p-0 shadow">
                         <div class="w-100">
 
                             <img class="w-100" src="/assets/img/finales/duracion-canciones.svg" alt="">
@@ -350,8 +349,8 @@
                 </div>
 
 
-                <div class=" row mb-4 d-none d-lg-flex justify-content-center ">
-                    <div class="col-9 p-0">
+                <div class=" row mb-4 d-none d-lg-flex justify-content-center mt-4">
+                    <div class="col-12">
                         <img class="w-100 shadow" src="/assets/img/finales/entradas-explicitas.svg" alt="">
                     </div>
                 </div>
@@ -384,13 +383,13 @@
                 </div>
             </section>
 
-            <section id="canciones-analisis">
+            <section id="canciones-analisis" class="container">
                 <div class="row">
                     <div class="col-12 col-md-8">
                         <h4 class="">
                             Canciones número 1
                         </h4>
-                        <p class="mb-4">
+                        <p class="mb-5">
                             Para analizar más específicamente las características de las canciones más populares
                             de cada década, separé las canciones que llegaron al número 1 y las analicé en función
                             de su género musical. Toda la información de género fue extraída de Wikipedia.
@@ -403,7 +402,7 @@
             <section id="géneros-canciones">
 
                 <div class="row mb-4 d-none d-flex justify-content-center d-lg-flex">
-                    <div class="col-11  p-0">
+                    <div class="col-12 ">
                         <div class="w-100">
                             <img class="w-100" src="/assets/img/finales/análisis-canciones.svg" alt="">
                         </div>
@@ -445,24 +444,24 @@
 
             </section>
 
-            <section id="tendencias">
+            <section id="tendencias" class="container">
                 <div class="row">
                     <div class="col-12 col-lg-8">
-                        <h4 class="">
+                        <h4>
                             Tendencias en el ránking
                         </h4>
 
                         <h5>
                             Permanencia
                         </h5>
-                        <p class="">
+                        <p >
                             A pesar de que la media de semanas en el ránking es más alta en el 2010, el
                             2020 tuvo canciones específicas que se mantuvieron por varias semanas,
                             incluyendo Blinding Lights que estuvo en el chart el año entero.
 
                         </p>
 
-                        <p class="">
+                        <p>
                             Al ser el streaming un servicio on-demand, la audiencia decide cuando
                             escuchar una canción. Esto influye en la media de las semanas, donde solo las
                             canciones virales o en tendencia se mantienen más tiempo. Las canciones
@@ -486,7 +485,7 @@
                 <div class="row d-none d-md-flex d-lg-none">
 
                     <div class="col-12 p-0 mt-5">
-                        <div class="">
+                        <div>
                             <img class="w-100 shadow" src="/assets/img/finales/semanas-en-rank-tablet.svg" alt="">
                         </div>
                     </div>
@@ -495,8 +494,8 @@
 
                 <div class="row d-none d-lg-flex justify-content-center">
 
-                    <div class="col-9 px-2 mt-5">
-                        <div class="">
+                    <div class="col-12 mt-4">
+                        <div>
                             <img class="w-100 shadow" src="/assets/img/finales/semanas-en-rank.svg" alt="">
                         </div>
                     </div>
@@ -506,13 +505,13 @@
 
             </section>
 
-            <section id="artistas">
+            <section id="artistas" class="container">
                 <div class="row mt-4">
                     <div class="col-12 col-md-8">
                         <h5 >
                             Artistas
                         </h5>
-                        <p class="">
+                        <p>
                             Solo cinco artistas principales aparecen en los dos años: Taylor Swift, Justin Bieber,
                             Lady Gaga, Drake y Eminem
                         </p>
@@ -521,8 +520,8 @@
 
                 </div>
 
-                <div class="row d-none d-lg-flex mb-4 justify-content-center">
-                    <div class="col-9 p-0 shadow">
+                <div class="row d-none d-lg-flex mb-4 justify-content-center mt-4">
+                    <div class="col-12 shadow">
                         <img class="w-100" src="/assets/img/finales/artistas-both.svg" alt="">
                     </div>
                 </div>
@@ -550,7 +549,7 @@
                 </div>
 
                 <div class="row d-none d-lg-flex justify-content-center mb-4">
-                    <div class="col-9 p-0 shadow">
+                    <div class="col-12 p-0 shadow">
                         <img class="w-100" src="/assets/img/finales/cantidad-de-canciones-por-artista.svg" alt="">
                     </div>
                 </div>
@@ -564,19 +563,23 @@
 
                 <div class="row d-flex d-md-none mb-4">
                     <div class="col-12 px-2 shadow">
-                        <img class="w-100" src="/assets/img/finales/cantidad-de-canciones-por-artista-movil.svg" alt="">
+                        <img class="w-100" src="/assets/img/finales/cantidad-de-canciones-por-artista-movil.svg" alt="cantidad de canciones por artista">
                     </div>
                 </div>
-
-                <p>
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <p>
                     
-                    Estos dos casos reflejan tendencias musicales de sus respectivos años: por un lado está Animal,
-                    electropop, dance-pop
-                    inspirado en la música de nightclubs y el estilo de vida nocturna; y por el otro tenemos a
-                    Legends Never Die: Hip-hop melódico con influencias variadas, desde el emo hasta el pop, lanzado
-                    luego
-                    de la trágica muerte de su artista. 
-                </p>   
+                            Estos dos casos reflejan tendencias musicales de sus respectivos años: por un lado está Animal,
+                            electropop, dance-pop
+                            inspirado en la música de nightclubs y el estilo de vida nocturna; y por el otro tenemos a
+                            Legends Never Die: Hip-hop melódico con influencias variadas, desde el emo hasta el pop, lanzado
+                            luego
+                            de la trágica muerte de su artista. 
+                        </p>   
+                    </div>
+                </div>
+        
 
             </section>
 
@@ -593,8 +596,11 @@
                         </p>
 
                         <p>
-                            La antigua forma de crear un hit, la distribución por radio, llevaba consigo
-                            una manera específica 
+                            En cierta manera, hay menos limitaciones en cuestiones de como debe ser una canción para ser popular:
+                            las restricciones de la radio, como las relacionadas al lenguage explícito, son menos importantes en 
+                            las plataformas de streaming. Ahora que los artistas pueden publicar música por su cuenta y no dependen 
+                            de disqueras ni de la radio, hay más variedad de artistas y tipo de música entre las canciones más populares
+                            del año. 
                         </p>
                     </div>
                 </div>

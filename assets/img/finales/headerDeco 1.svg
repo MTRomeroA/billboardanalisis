@@ -212,7 +212,7 @@
 <stop offset="1" stop-color="#050514"/>
 </radialGradient>
 <linearGradient id="paint28_linear_236_7251" x1="961.046" y1="524.713" x2="961.046" y2="908.107" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FF5A82"/>
+<stop stop-color="#5911B5"/>
 <stop offset="1" stop-color="#0400B7" stop-opacity="0"/>
 <stop offset="1" stop-color="#C559EB" stop-opacity="0"/>
 </linearGradient>
