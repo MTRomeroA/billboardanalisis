@@ -16,24 +16,36 @@ max-width: 1440px;
 -moz-box-shadow: -8px 10px 42px -3px rgba(0,0,5,0.75);
 }
 
+.deco {
+    max-width: 550px;
+}
 
 .logo-container{
     height: 400px;
     width: 100%;
+    padding: 10%!important ;
 }
 
 .logo-container img {
     position: relative;
 }
 
+strong{
+    font-weight: 700;
+}
+
+ol li::marker {
+    color: var(--bs-primary);
+}
 
 /*header*/
 
 .header h1 {
-    font-style: italic;
+    background: -webkit-linear-gradient(rgb(215, 226, 236), rgb(136, 104, 248));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
-
 
 
 .card-bamba {
@@ -42,8 +54,13 @@ max-width: 1440px;
     box-shadow: -6px 10px 20px rgba(9, 2, 32, 0.658);
     border-radius: 5px;
 }
+.btn {
+    -webkit-filter: drop-shadow( -6px 20px 20px rgba(6, 4, 61, 0.274));
+  filter: drop-shadow( -6px 20px 20px rgba(4, 4, 53, 0.274));
+    box-shadow: -6px 20px 20px rgba(7, 3, 48, 0.192);
+}
 
-.shadow {
+.shadow  {
     -webkit-filter: drop-shadow( -6px 20px 20px rgba(3, 2, 39, 0.658));
   filter: drop-shadow( -6px 20px 20px rgba(1, 1, 22, 0.658));
     box-shadow: -6px 20px 20px rgba(3, 1, 20, 0.658);
@@ -90,7 +107,7 @@ max-width: 1440px;
     .img-container img {
         max-height: 800px;
         right: -300px;
-        top: -100px;
+        top: 100px;
     } 
 }
 
@@ -119,6 +136,7 @@ max-width: 1440px;
 @media (min-width: 1142px) {
     .img-container img {
         max-height: 1000px;
+        right: -200px;
         position: absolute;
         top: 0;
     }
@@ -136,6 +154,9 @@ max-width: 1440px;
     max-width: 500px;
 }
 
+.nav {
+    max-width: 600px;
+}
 
 .nav li{
     margin-right: 1rem;
@@ -162,7 +183,7 @@ flex-direction: column;
 
 
 
-
+ 
 
 /*cantidad de artistas */
 #graficoResumen {
@@ -238,9 +259,7 @@ width: 100%;
 .graph {
    height: 500px;
 }
-section {
-    padding: 20px 0;
-}
+
 
 .dark-card{
     box-shadow: -6px 31px 20px rgba(16, 9, 20, 0.158);
@@ -261,9 +280,7 @@ p {
     font-weight: 200;
 }
 
-section {
-    margin-bottom: 1.5rem;
-}
+
 
 #graficoResumen {
     max-height: 200px;
